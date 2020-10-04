@@ -26,5 +26,9 @@ public class AnytoAny {
         System.out.println(dn);
         scn.close();
     }
+    
+    public String anyToAny() {
+    	return "AnytoAny";
+    }
 
 }

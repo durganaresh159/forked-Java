@@ -27,4 +27,8 @@ class BinaryToDecimal {
         System.out.println("Decimal equivalent:" + s);
         sc.close();
     }
+    
+    public String binaryToDecimal() {
+    	return "binaryToDecimal";
+    }
 }

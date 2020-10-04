@@ -9,21 +9,21 @@ import java.util.Scanner;
  */
 public class BinaryToOctal {
 
-    /**
-     * Main method
-     *
-     * @param args Command line arguments
-     */
-    public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Input the binary number: ");
-        int b = sc.nextInt();
-        System.out.println("Octal equivalent: " + convertBinaryToOctal(b));
-        sc.close();
+	/**
+	 * Main method
+	 *
+	 * @param args Command line arguments
+	 */
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Input the binary number: ");
+		int b = sc.nextInt();
+		System.out.println("Octal equivalent: " + convertBinaryToOctal(b));
+		sc.close();
 
-    }
+	}
 
-    /**
+	/**
      * This method converts a binary number to
      * an octal number.
      *
@@ -47,4 +47,7 @@ public class BinaryToOctal {
         return octal;
     }
 
+	public String anyToAny() {
+		return "AnytoAny";
+	}
 }
