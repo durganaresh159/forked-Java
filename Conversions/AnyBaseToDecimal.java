@@ -37,7 +37,7 @@ public class AnyBaseToDecimal {
         return num;
     }
 
-    /**
+    /***
      * Convert character to integer
      *
      * @param c the character
