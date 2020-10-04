@@ -4,7 +4,7 @@ package Conversions;
  * @author Varun Upadhyay (https://github.com/varunu28)
  */
 
-// Driver program
+//A to B
 public class AnyBaseToDecimal {
     public static void main(String[] args) {
         assert convertToDecimal("1010", 2) == Integer.valueOf("1010", 2);
